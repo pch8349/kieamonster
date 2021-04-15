@@ -1,0 +1,478 @@
+2021-04-07 11:01:49,584 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 2700 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:01:49,589 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:01:49,640 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 11:01:49,640 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 11:01:49,641 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 11:01:49,641 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 11:01:50,204 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:01:50,268 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:01:50,827 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:01:50,837 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:01:50,838 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:01:50,919 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:01:50,920 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1279 ms
+2021-04-07 11:01:51,172 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:01:51,226 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 11:01:51,364 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 11:01:51,452 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 11:01:52,072 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 11:01:52,093 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:01:55,752 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:01:55,772 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:01:55,817 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:01:56,154 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:01:56,443 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:01:56,873 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:01:56,882 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 7.694 seconds (JVM running for 8.694)
+2021-04-07 11:01:56,884 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:01:57,091 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 11:01:57,091 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 11:01:57,092 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 1 ms
+2021-04-07 11:02:50,840 INFO  [Thread-8  ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:02:50,847 INFO  [Thread-8  ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:02:50,850 INFO  [Thread-8  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 11:02:51,187 INFO  [Thread-8  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 11:02:51,236 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T11:02:51.236858200
+2021-04-07 11:02:51,272 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 2700 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:02:51,273 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:02:51,413 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:02:51,430 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:02:51,515 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:02:51,516 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:02:51,516 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:02:51,534 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:02:51,534 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 260 ms
+2021-04-07 11:02:51,564 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:02:51,567 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Starting...
+2021-04-07 11:02:51,952 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Start completed.
+2021-04-07 11:02:51,953 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:02:54,870 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:02:54,871 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:02:54,883 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:02:54,963 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:02:55,019 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:02:55,102 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:02:55,106 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 3.864 seconds (JVM running for 66.917)
+2021-04-07 11:02:55,107 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:02:55,108 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 11:03:00,654 INFO  [RMI TCP Connection(3)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 11:03:00,674 INFO  [RMI TCP Connection(3)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:03:00,676 INFO  [RMI TCP Connection(3)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:03:00,676 INFO  [RMI TCP Connection(3)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown initiated...
+2021-04-07 11:03:01,052 INFO  [RMI TCP Connection(3)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown completed.
+2021-04-07 11:30:50,194 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 8704 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:30:50,196 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:30:50,233 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 11:30:50,233 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 11:30:50,233 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 11:30:50,234 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 11:30:50,757 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:30:50,812 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:30:51,367 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:30:51,377 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:30:51,377 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:30:51,455 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:30:51,456 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1222 ms
+2021-04-07 11:30:51,697 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:30:51,748 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 11:30:51,905 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 11:30:52,006 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 11:30:52,661 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 11:30:52,680 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:30:55,634 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:30:55,653 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:30:55,703 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:30:56,047 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:30:56,342 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:30:56,774 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:30:56,782 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 6.928 seconds (JVM running for 7.611)
+2021-04-07 11:30:56,784 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:30:57,003 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 11:30:57,004 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 11:30:57,005 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 1 ms
+2021-04-07 11:32:54,651 INFO  [RMI TCP Connection(5)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 11:32:54,684 INFO  [RMI TCP Connection(5)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:32:54,687 INFO  [RMI TCP Connection(5)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:32:54,690 INFO  [RMI TCP Connection(5)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 11:32:55,073 INFO  [RMI TCP Connection(5)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 11:35:28,406 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 13508 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:35:28,407 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:35:28,443 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 11:35:28,444 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 11:35:28,444 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 11:35:28,444 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 11:35:28,947 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:35:29,006 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:35:29,521 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:35:29,530 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:35:29,530 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:35:29,598 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:35:29,598 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1154 ms
+2021-04-07 11:35:29,823 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:35:29,858 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 11:35:29,959 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 11:35:30,035 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 11:35:30,606 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 11:35:30,621 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:35:33,352 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:35:33,360 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:35:33,409 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:35:33,755 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:35:34,059 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:35:34,488 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:35:34,496 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 6.448 seconds (JVM running for 7.144)
+2021-04-07 11:35:34,498 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:35:34,546 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 11:35:34,547 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 11:35:34,548 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 0 ms
+2021-04-07 11:42:33,974 INFO  [Thread-7  ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:42:33,977 INFO  [Thread-7  ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:42:33,980 INFO  [Thread-7  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 11:42:34,588 INFO  [Thread-7  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 11:42:34,633 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T11:42:34.633798300
+2021-04-07 11:42:34,666 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 13508 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:42:34,667 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:42:34,813 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:42:34,831 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:42:34,912 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:42:34,913 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:42:34,913 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:42:34,930 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:42:34,930 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 262 ms
+2021-04-07 11:42:34,961 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:42:34,964 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Starting...
+2021-04-07 11:42:35,379 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Start completed.
+2021-04-07 11:42:35,381 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:42:37,502 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:42:37,503 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:42:37,518 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:42:37,595 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:42:37,651 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:42:37,733 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:42:37,737 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 3.099 seconds (JVM running for 430.385)
+2021-04-07 11:42:37,738 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:42:37,739 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 11:42:39,457 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 2268 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:42:39,458 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:42:39,497 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 11:42:39,497 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 11:42:39,497 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 11:42:39,497 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 11:42:40,004 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:42:40,064 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:42:40,597 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:42:40,606 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:42:40,607 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:42:40,671 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:42:40,671 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1173 ms
+2021-04-07 11:42:40,918 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:42:40,959 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 11:42:41,076 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 11:42:41,161 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 11:42:41,750 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 11:42:41,765 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:42:44,531 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:42:44,542 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:42:44,594 WARN  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2021-04-07 11:42:44,919 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:42:45,202 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:42:45,603 WARN  [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-04-07 11:42:45,605 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:42:45,606 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:42:45,609 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 11:42:46,000 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 11:42:46,000 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 11:42:46,001 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 11:42:46,002 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 1 ms
+2021-04-07 11:42:46,004 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Stopping service [Tomcat]
+2021-04-07 11:42:46,018 INFO  [restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-07 11:42:46,037 ERROR [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-04-07 11:43:16,536 INFO  [Thread-13 ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:43:16,537 INFO  [Thread-13 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:43:16,538 INFO  [Thread-13 ] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown initiated...
+2021-04-07 11:43:16,879 INFO  [Thread-13 ] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown completed.
+2021-04-07 11:43:16,915 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T11:43:16.914679900
+2021-04-07 11:43:16,944 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 13508 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 11:43:16,944 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 11:43:17,083 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 11:43:17,104 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2021-04-07 11:43:17,175 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 11:43:17,176 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 11:43:17,176 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 11:43:17,199 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 11:43:17,199 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 253 ms
+2021-04-07 11:43:17,227 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 11:43:17,231 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Starting...
+2021-04-07 11:43:17,587 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Start completed.
+2021-04-07 11:43:17,588 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 11:43:19,608 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 11:43:19,608 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:43:19,623 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 11:43:19,706 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 11:43:19,764 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:43:19,849 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 11:43:19,852 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 2.933 seconds (JVM running for 472.5)
+2021-04-07 11:43:19,853 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 11:43:19,854 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 11:43:49,909 INFO  [RMI TCP Connection(13)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 11:43:49,927 INFO  [RMI TCP Connection(13)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:43:49,929 INFO  [RMI TCP Connection(13)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 11:43:49,929 INFO  [RMI TCP Connection(13)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Shutdown initiated...
+2021-04-07 11:43:50,246 INFO  [RMI TCP Connection(13)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Shutdown completed.
+2021-04-07 13:10:43,338 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 14356 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 13:10:43,340 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 13:10:43,386 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 13:10:43,387 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 13:10:43,387 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 13:10:43,387 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 13:10:44,182 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 13:10:44,266 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2021-04-07 13:10:45,463 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 13:10:45,485 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 13:10:45,487 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 13:10:45,732 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 13:10:45,733 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2345 ms
+2021-04-07 13:10:46,480 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 13:10:46,593 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 13:10:46,841 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 13:10:47,017 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 13:10:47,783 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 13:10:47,823 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 13:10:51,449 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 13:10:51,483 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:10:51,590 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 13:10:52,383 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 13:10:53,046 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:10:53,786 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 13:10:53,798 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 10.948 seconds (JVM running for 11.826)
+2021-04-07 13:10:53,800 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 13:10:53,875 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 13:10:53,875 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 13:10:53,878 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 2 ms
+2021-04-07 13:12:39,561 INFO  [http-nio-8080-exec-6] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:12:57,185 INFO  [http-nio-8080-exec-8] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 13:13:31,298 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 13:13:31,352 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:13:31,360 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:13:31,367 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 13:13:32,081 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 13:14:23,908 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 7864 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 13:14:23,910 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 13:14:23,952 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 13:14:23,952 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 13:14:23,953 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 13:14:23,953 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 13:14:24,616 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 13:14:24,703 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2021-04-07 13:14:25,410 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 13:14:25,419 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 13:14:25,420 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 13:14:25,520 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 13:14:25,521 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1568 ms
+2021-04-07 13:14:25,848 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 13:14:25,904 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 13:14:26,087 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 13:14:26,214 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 13:14:27,055 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 13:14:27,092 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 13:14:30,145 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 13:14:30,168 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:14:30,236 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 13:14:30,753 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 13:14:31,145 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:14:31,755 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 13:14:31,767 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 8.327 seconds (JVM running for 9.199)
+2021-04-07 13:14:31,769 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 13:15:00,527 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 13:15:00,528 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 13:15:00,531 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 2 ms
+2021-04-07 13:15:00,604 INFO  [http-nio-8080-exec-1] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:15:22,579 INFO  [http-nio-8080-exec-3] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 13:16:59,632 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 13:16:59,682 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:16:59,687 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:16:59,691 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 13:17:00,034 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 13:30:45,655 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 6292 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 13:30:45,657 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 13:30:45,703 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 13:30:45,704 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 13:30:45,704 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 13:30:45,704 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 13:30:46,429 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 13:30:46,529 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2021-04-07 13:30:47,273 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 13:30:47,283 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 13:30:47,283 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 13:30:47,397 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 13:30:47,397 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1692 ms
+2021-04-07 13:30:47,686 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 13:30:47,736 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 13:30:47,871 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 13:30:47,974 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 13:30:48,894 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 13:30:48,932 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 13:30:53,198 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 13:30:53,219 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:30:53,300 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 13:30:53,802 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 13:30:54,283 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:30:55,177 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 13:30:55,198 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 9.986 seconds (JVM running for 10.872)
+2021-04-07 13:30:55,203 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 13:31:00,542 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 13:31:00,543 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 13:31:00,545 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 2 ms
+2021-04-07 13:31:00,578 INFO  [http-nio-8080-exec-1] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:31:10,796 INFO  [http-nio-8080-exec-3] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 13:31:16,211 INFO  [http-nio-8080-exec-4] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 13:31:39,036 INFO  [http-nio-8080-exec-10] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:36:15,697 INFO  [http-nio-8080-exec-5] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 13:36:24,078 INFO  [http-nio-8080-exec-6] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:37:55,987 INFO  [http-nio-8080-exec-2] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 13:38:36,739 INFO  [Thread-8  ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:38:36,744 INFO  [Thread-8  ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:38:36,751 INFO  [Thread-8  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 13:38:37,234 INFO  [Thread-8  ] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
+2021-04-07 13:38:37,325 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T13:38:37.324274100
+2021-04-07 13:38:37,411 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 6292 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 13:38:37,412 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 13:38:37,764 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 13:38:37,810 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2021-04-07 13:38:38,024 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 13:38:38,026 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 13:38:38,027 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 13:38:38,074 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 13:38:38,075 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 657 ms
+2021-04-07 13:38:38,163 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 13:38:38,177 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Starting...
+2021-04-07 13:38:38,747 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Start completed.
+2021-04-07 13:38:38,747 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 13:38:41,428 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 13:38:41,429 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 13:38:41,465 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 13:38:41,667 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 13:38:41,800 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 13:38:42,020 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 13:38:42,028 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 4.69 seconds (JVM running for 477.701)
+2021-04-07 13:38:42,030 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 13:38:42,033 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 13:38:43,728 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 13:38:43,730 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 13:38:43,733 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 3 ms
+2021-04-07 13:38:43,739 INFO  [http-nio-8080-exec-1] [o.t.c.c.CampaignRestController] - KANG-20200730 >>>>> org.tain.controller.campaign.CampaignRestController.list()#31 {}
+2021-04-07 14:06:24,013 INFO  [Thread-20 ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:06:24,016 INFO  [Thread-20 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:06:24,018 INFO  [Thread-20 ] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown initiated...
+2021-04-07 14:06:24,483 INFO  [Thread-20 ] [c.z.hikari.HikariDataSource   ] - HikariPool-2 - Shutdown completed.
+2021-04-07 14:06:24,555 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T14:06:24.554247900
+2021-04-07 14:06:24,595 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 6292 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 14:06:24,596 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 14:06:24,753 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 14:06:24,778 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2021-04-07 14:06:24,877 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 14:06:24,878 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 14:06:24,878 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 14:06:24,895 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 14:06:24,895 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 295 ms
+2021-04-07 14:06:24,929 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 14:06:24,935 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Starting...
+2021-04-07 14:06:25,433 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Start completed.
+2021-04-07 14:06:25,434 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 14:06:28,149 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 14:06:28,151 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:06:28,178 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 14:06:28,294 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 14:06:28,355 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:06:28,464 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 14:06:28,467 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 3.907 seconds (JVM running for 2144.141)
+2021-04-07 14:06:28,469 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 14:06:28,470 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 14:09:28,201 INFO  [Thread-28 ] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:09:28,204 INFO  [Thread-28 ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:09:28,206 INFO  [Thread-28 ] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Shutdown initiated...
+2021-04-07 14:09:28,668 INFO  [Thread-28 ] [c.z.hikari.HikariDataSource   ] - HikariPool-3 - Shutdown completed.
+2021-04-07 14:09:28,728 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.main()#20 2021-04-07T14:09:28.728574400
+2021-04-07 14:09:28,773 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 6292 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 14:09:28,774 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 14:09:28,939 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 14:09:28,961 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2021-04-07 14:09:29,067 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 14:09:29,068 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 14:09:29,068 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 14:09:29,101 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 14:09:29,101 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 325 ms
+2021-04-07 14:09:29,138 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 14:09:29,141 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-4 - Starting...
+2021-04-07 14:09:29,599 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-4 - Start completed.
+2021-04-07 14:09:29,600 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 14:09:32,126 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 14:09:32,127 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:09:32,154 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 14:09:32,353 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 14:09:32,495 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:09:32,725 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 14:09:32,734 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 4.0 seconds (JVM running for 2328.408)
+2021-04-07 14:09:32,737 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 14:09:32,739 INFO  [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+2021-04-07 14:09:48,329 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 14:09:48,329 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 14:09:48,333 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 3 ms
+2021-04-07 14:16:01,797 INFO  [RMI TCP Connection(47)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 14:16:01,829 INFO  [RMI TCP Connection(47)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:16:01,831 INFO  [RMI TCP Connection(47)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:16:01,834 INFO  [RMI TCP Connection(47)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-4 - Shutdown initiated...
+2021-04-07 14:16:02,541 INFO  [RMI TCP Connection(47)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-4 - Shutdown completed.
+2021-04-07 14:16:15,515 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Starting KieaMonster01Oracle02Application using Java 15.0.2 on NOTEBOOK-PCH with PID 13324 (C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02\bin\main started by asdf in C:\PCH_\workspace\20210331\KieaMonster-01-oracle-02)
+2021-04-07 14:16:15,516 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - No active profile set, falling back to default profiles: default
+2021-04-07 14:16:15,563 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\ojdbc8\19.3.0.0\967c0b1a2d5b1435324de34a9b8018d294f8f47b\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/ojdbc8/19.3.0.0/967c0b1a2d5b1435324de34a9b8018d294f8f47b/oraclepki.jar
+2021-04-07 14:16:15,564 INFO  [restartedMain] [o.s.b.d.restart.ChangeableUrls] - The Class-Path manifest attribute in C:\Users\asdf\.gradle\caches\modules-2\files-2.1\com.oracle.ojdbc\oraclepki\19.3.0.0\e52a34f271c6c62ee1a73b71cc19da5459b709f\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/e52a34f271c6c62ee1a73b71cc19da5459b709f/osdt_cert.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/asdf/.gradle/caches/modules-2/files-2.1/com.oracle.ojdbc/oraclepki/19.3.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 14:16:15,564 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 14:16:15,564 INFO  [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 14:16:16,229 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 14:16:16,302 INFO  [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2021-04-07 14:16:17,070 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat initialized with port(s): 8080 (http)
+2021-04-07 14:16:17,082 INFO  [restartedMain] [o.a.c.core.StandardService    ] - Starting service [Tomcat]
+2021-04-07 14:16:17,082 INFO  [restartedMain] [o.a.c.core.StandardEngine     ] - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 14:16:17,184 INFO  [restartedMain] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring embedded WebApplicationContext
+2021-04-07 14:16:17,184 INFO  [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1619 ms
+2021-04-07 14:16:17,506 INFO  [restartedMain] [o.h.j.internal.util.LogHelper ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 14:16:17,566 INFO  [restartedMain] [org.hibernate.Version         ] - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 14:16:17,704 INFO  [restartedMain] [o.h.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 14:16:17,794 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Starting...
+2021-04-07 14:16:18,667 INFO  [restartedMain] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Start completed.
+2021-04-07 14:16:18,706 INFO  [restartedMain] [org.hibernate.dialect.Dialect ] - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 14:16:22,282 INFO  [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 14:16:22,300 INFO  [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:16:22,362 INFO  [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2021-04-07 14:16:22,776 WARN  [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 14:16:23,149 INFO  [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:16:23,779 INFO  [restartedMain] [o.s.b.w.e.t.TomcatWebServer   ] - Tomcat started on port(s): 8080 (http) with context path '/v0.1'
+2021-04-07 14:16:23,789 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - Started KieaMonster01Oracle02Application in 8.687 seconds (JVM running for 9.585)
+2021-04-07 14:16:23,791 INFO  [restartedMain] [o.t.KieaMonster01Oracle02Application] - KANG-20200803 >>>>> org.tain.KieaMonster01Oracle02Application.run()#26 {}
+2021-04-07 14:16:39,176 INFO  [http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/v0.1]         ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 14:16:39,176 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Initializing Servlet 'dispatcherServlet'
+2021-04-07 14:16:39,177 INFO  [http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet     ] - Completed initialization in 1 ms
+2021-04-07 14:16:39,205 INFO  [http-nio-8080-exec-1] [o.t.c.b.BoardRestController   ] - KANG-20200730 >>>>> org.tain.controller.board.BoardRestController.list()#31 {}
+2021-04-07 14:17:10,230 INFO  [http-nio-8080-exec-3] [o.t.c.c.CampPageRestController] - KANG-20210330 >>>>> org.tain.controller.campPage.CampPageRestController.list()#31 {}
+2021-04-07 14:17:23,291 INFO  [http-nio-8080-exec-5] [o.t.c.c.CampaignRestController] - KANG-20200730 >>>>> org.tain.controller.campaign.CampaignRestController.list()#31 {}
+2021-04-07 14:19:03,931 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - Application shutdown requested.
+2021-04-07 14:19:03,957 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 14:19:03,959 INFO  [RMI TCP Connection(6)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 14:19:03,963 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown initiated...
+2021-04-07 14:19:04,556 INFO  [RMI TCP Connection(6)-127.0.0.1] [c.z.hikari.HikariDataSource   ] - HikariPool-1 - Shutdown completed.
