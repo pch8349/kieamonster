@@ -1,0 +1,1797 @@
+2021-04-07 14:17:34,007 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,011 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,011 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,012 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11094,
+  "campaignCd" : "CAMP11094",
+  "campaignNm" : "V4_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2018-01-03"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11094",
+  "campaignNm" : "V4_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11094"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11094"
+    }
+  }
+}
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,023 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,024 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11104,
+  "campaignCd" : "CAMP11104",
+  "campaignNm" : "매뉴얼_오퍼2개",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2018-01-04"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,033 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,033 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,033 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11104",
+  "campaignNm" : "매뉴얼_오퍼2개",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11104"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11104"
+    }
+  }
+}
+2021-04-07 14:17:34,033 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,034 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11106,
+  "campaignCd" : "CAMP11106",
+  "campaignNm" : "매뉴얼_LMS",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2018-01-04"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11106",
+  "campaignNm" : "매뉴얼_LMS",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11106"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11106"
+    }
+  }
+}
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,043 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 517,
+  "campaignCd" : "CAMP517",
+  "campaignNm" : "정의_1.일반캠페인_NEW",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP517",
+  "campaignNm" : "정의_1.일반캠페인_NEW",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/517"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/517"
+    }
+  }
+}
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,052 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,053 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,053 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,053 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,053 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,053 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 521,
+  "campaignCd" : "CAMP521",
+  "campaignNm" : "A-B Test 캠페인 테스트005",
+  "campaignFolderTxt" : "580.테스트캠페인\\A_B테스트_캠페인",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP521",
+  "campaignNm" : "A-B Test 캠페인 테스트005",
+  "campaignFolderTxt" : "580.테스트캠페인\\A_B테스트_캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/521"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/521"
+    }
+  }
+}
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,064 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 523,
+  "campaignCd" : "CAMP523",
+  "campaignNm" : "TARGET_7명_OCB",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP523",
+  "campaignNm" : "TARGET_7명_OCB",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/523"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/523"
+    }
+  }
+}
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,076 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 616,
+  "campaignCd" : "CAMP616",
+  "campaignNm" : "TEST_LMS_오퍼2개_V2",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1218",
+  "processedDttm" : "2017-12-18"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP616",
+  "campaignNm" : "TEST_LMS_오퍼2개_V2",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1218",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/616"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/616"
+    }
+  }
+}
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,182 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 10239,
+  "campaignCd" : "CAMP10239",
+  "campaignNm" : "AB_TEST_1219_1",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-19"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP10239",
+  "campaignNm" : "AB_TEST_1219_1",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10239"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10239"
+    }
+  }
+}
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,190 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,191 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,191 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11055,
+  "campaignCd" : "CAMP11055",
+  "campaignNm" : "time_cu_SmsLms",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월28일test",
+  "processedDttm" : "2017-12-28"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,199 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,199 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,199 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11055",
+  "campaignNm" : "time_cu_SmsLms",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월28일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11055"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11055"
+    }
+  }
+}
+2021-04-07 14:17:34,199 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,200 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11115,
+  "campaignCd" : "CAMP11115",
+  "campaignNm" : "BATCH_1순위_3명",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2018-01-04"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,208 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,208 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,208 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11115",
+  "campaignNm" : "BATCH_1순위_3명",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월04일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11115"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11115"
+    }
+  }
+}
+2021-04-07 14:17:34,208 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,209 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11227,
+  "campaignCd" : "CAMP11227",
+  "campaignNm" : "멀티스텝_0111_1",
+  "campaignFolderTxt" : "580.테스트캠페인\\멀티스텝",
+  "processedDttm" : "2018-01-11"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,216 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,216 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,216 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11227",
+  "campaignNm" : "멀티스텝_0111_1",
+  "campaignFolderTxt" : "580.테스트캠페인\\멀티스텝",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11227"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11227"
+    }
+  }
+}
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,217 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11249,
+  "campaignCd" : "CAMP11249",
+  "campaignNm" : "batch_0115_선호시간_2",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월10일test",
+  "processedDttm" : "2018-01-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,228 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,228 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,228 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11249",
+  "campaignNm" : "batch_0115_선호시간_2",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월10일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11249"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11249"
+    }
+  }
+}
+2021-04-07 14:17:34,228 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,230 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11232,
+  "campaignCd" : "CAMP11232",
+  "campaignNm" : "전사_0117_당월미구매",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\전사캠페인",
+  "processedDttm" : "2018-01-16"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11232",
+  "campaignNm" : "전사_0117_당월미구매",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\전사캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11232"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11232"
+    }
+  }
+}
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,241 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11263,
+  "campaignCd" : "CAMP11263",
+  "campaignNm" : "V1_일반캠페인",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2018-01-16"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11263",
+  "campaignNm" : "V1_일반캠페인",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11263"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11263"
+    }
+  }
+}
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,251 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 201,
+  "campaignCd" : "CAMP201",
+  "campaignNm" : "캠페인201",
+  "campaignFolderTxt" : "41.캠페인_테스트폴더",
+  "processedDttm" : "2017-10-30"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,262 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,262 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,262 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP201",
+  "campaignNm" : "캠페인201",
+  "campaignFolderTxt" : "41.캠페인_테스트폴더",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/201"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/201"
+    }
+  }
+}
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,263 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 417,
+  "campaignCd" : "CAMP417",
+  "campaignNm" : "test_전사_자동화_1705_휴면이탈방지_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년10월\\전사",
+  "processedDttm" : "2017-11-30"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,272 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,272 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,272 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP417",
+  "campaignNm" : "test_전사_자동화_1705_휴면이탈방지_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년10월\\전사",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/417"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/417"
+    }
+  }
+}
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,273 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 509,
+  "campaignCd" : "CAMP509",
+  "campaignNm" : "정의_1.일반캠페인_기간내",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,282 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,282 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,282 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP509",
+  "campaignNm" : "정의_1.일반캠페인_기간내",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/509"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/509"
+    }
+  }
+}
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,283 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 518,
+  "campaignCd" : "CAMP518",
+  "campaignNm" : "정의_1.일반캠페인_V2",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP518",
+  "campaignNm" : "정의_1.일반캠페인_V2",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/518"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/518"
+    }
+  }
+}
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,293 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 534,
+  "campaignCd" : "CAMP534",
+  "campaignNm" : "TARGET_7명_OCB2_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP534",
+  "campaignNm" : "TARGET_7명_OCB2_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/534"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/534"
+    }
+  }
+}
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,303 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 620,
+  "campaignCd" : "CAMP620",
+  "campaignNm" : "ABTEST_V1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1219",
+  "processedDttm" : "2017-12-19"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,313 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,313 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,313 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP620",
+  "campaignNm" : "ABTEST_V1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1219",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/620"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/620"
+    }
+  }
+}
+2021-04-07 14:17:34,313 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,314 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11056,
+  "campaignCd" : "CAMP11056",
+  "campaignNm" : "V1_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2017-12-28"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,328 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,328 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,328 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11056",
+  "campaignNm" : "V1_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11056"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11056"
+    }
+  }
+}
+2021-04-07 14:17:34,328 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,329 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,330 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11101,
+  "campaignCd" : "CAMP11101",
+  "campaignNm" : "manual_ocb_0103_FROMTO",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월03일test",
+  "processedDttm" : "2018-01-03"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,340 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,340 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,340 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11101",
+  "campaignNm" : "manual_ocb_0103_FROMTO",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월03일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11101"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11101"
+    }
+  }
+}
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,341 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11301,
+  "campaignCd" : "CAMP11301",
+  "campaignNm" : "TEST_캠페인11301_쿠폰처리",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월22일test",
+  "processedDttm" : "2018-01-22"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,350 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,350 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,350 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11301",
+  "campaignNm" : "TEST_캠페인11301_쿠폰처리",
+  "campaignFolderTxt" : "580.테스트캠페인\\01월22일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11301"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11301"
+    }
+  }
+}
+2021-04-07 14:17:34,350 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,351 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11282,
+  "campaignCd" : "CAMP11282",
+  "campaignNm" : "카드사_0118_신한앱카드_WK2",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카드사캠페인",
+  "processedDttm" : "2018-01-22"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,361 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,361 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,361 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11282",
+  "campaignNm" : "카드사_0118_신한앱카드_WK2",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카드사캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11282"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11282"
+    }
+  }
+}
+2021-04-07 14:17:34,361 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,361 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,362 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 182,
+  "campaignCd" : "CAMP182",
+  "campaignNm" : "test",
+  "campaignFolderTxt" : "\\",
+  "processedDttm" : "2017-10-27"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP182",
+  "campaignNm" : "test",
+  "campaignFolderTxt" : "\\",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/182"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/182"
+    }
+  }
+}
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,374 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,375 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,375 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 455,
+  "campaignCd" : "C000012794",
+  "campaignNm" : "AB_TEST_시간입력변경",
+  "campaignFolderTxt" : "518.캠페인정의",
+  "processedDttm" : "2017-12-07"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,385 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "C000012794",
+  "campaignNm" : "AB_TEST_시간입력변경",
+  "campaignFolderTxt" : "518.캠페인정의",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/455"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/455"
+    }
+  }
+}
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,386 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,387 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,387 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,387 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,387 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 519,
+  "campaignCd" : "CAMP519",
+  "campaignNm" : "t_20171214",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,396 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,396 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,396 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP519",
+  "campaignNm" : "t_20171214",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/519"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/519"
+    }
+  }
+}
+2021-04-07 14:17:34,396 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,397 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11062,
+  "campaignCd" : "CAMP11062",
+  "campaignNm" : "더미오퍼",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월28일test",
+  "processedDttm" : "2017-12-28"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,406 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,406 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,406 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11062",
+  "campaignNm" : "더미오퍼",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월28일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11062"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11062"
+    }
+  }
+}
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,407 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11092,
+  "campaignCd" : "CAMP11092",
+  "campaignNm" : "V3_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2018-01-03"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,417 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,417 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,417 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11092",
+  "campaignNm" : "V3_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11092"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11092"
+    }
+  }
+}
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,418 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11197,
+  "campaignCd" : "CAMP11197",
+  "campaignNm" : "카테고리_0111_스마트디지털_WK1",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2018-01-11"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,427 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,427 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,427 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11197",
+  "campaignNm" : "카테고리_0111_스마트디지털_WK1",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11197"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11197"
+    }
+  }
+}
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,428 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11223,
+  "campaignCd" : "CAMP11223",
+  "campaignNm" : "장바미구매_리얼타임_v2.0",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2018-01-12"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11223",
+  "campaignNm" : "장바미구매_리얼타임_v2.0",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11223"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11223"
+    }
+  }
+}
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,438 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,439 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,439 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11283,
+  "campaignCd" : "CAMP11283",
+  "campaignNm" : "V16_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2018-01-18"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11283",
+  "campaignNm" : "V16_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11283"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11283"
+    }
+  }
+}
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,447 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11322,
+  "campaignCd" : "CAMP11322",
+  "campaignNm" : "V24_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2018-01-23"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,458 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,458 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11322",
+  "campaignNm" : "V24_AB테스트",
+  "campaignFolderTxt" : "580.테스트캠페인\\AB테스트",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11322"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11322"
+    }
+  }
+}
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,459 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 461,
+  "campaignCd" : "CAMP461",
+  "campaignNm" : "TEST_1208",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-08"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,467 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,467 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,467 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP461",
+  "campaignNm" : "TEST_1208",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/461"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/461"
+    }
+  }
+}
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,469 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 481,
+  "campaignCd" : "CAMP481",
+  "campaignNm" : "TEST_7명_발송테스트",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-12"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,478 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,478 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,478 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP481",
+  "campaignNm" : "TEST_7명_발송테스트",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/481"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/481"
+    }
+  }
+}
+2021-04-07 14:17:34,478 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,479 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 540,
+  "campaignCd" : "CAMP540",
+  "campaignNm" : "TARGET_7명_쿠폰3_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,486 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,486 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,486 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP540",
+  "campaignNm" : "TARGET_7명_쿠폰3_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/540"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/540"
+    }
+  }
+}
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,487 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11070,
+  "campaignCd" : "CAMP11070",
+  "campaignNm" : "테스트시연_1229_manual",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월29일test",
+  "processedDttm" : "2017-12-29"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11070",
+  "campaignNm" : "테스트시연_1229_manual",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월29일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11070"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11070"
+    }
+  }
+}
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,495 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,496 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 10238,
+  "campaignCd" : "CAMP10238",
+  "campaignNm" : "AB_TEST_1219",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-19"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP10238",
+  "campaignNm" : "AB_TEST_1219",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10238"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10238"
+    }
+  }
+}
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,505 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,506 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,506 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11229,
+  "campaignCd" : "CAMP11229",
+  "campaignNm" : "카테고리_0112_싸이닉_WK1",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2018-01-11"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,515 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11229",
+  "campaignNm" : "카테고리_0112_싸이닉_WK1",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11229"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11229"
+    }
+  }
+}
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,516 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 448,
+  "campaignCd" : "CAMP448",
+  "campaignNm" : "TEST_BATCH80",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-13"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP448",
+  "campaignNm" : "TEST_BATCH80",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/448"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/448"
+    }
+  }
+}
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,527 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,528 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,528 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,528 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,528 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,529 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 543,
+  "campaignCd" : "CAMP543",
+  "campaignNm" : "TARGET_7명_쿠폰5_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2017-12-14"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP543",
+  "campaignNm" : "TARGET_7명_쿠폰5_M",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1214",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/543"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/543"
+    }
+  }
+}
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,537 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,538 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,538 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,538 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,538 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,538 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 551,
+  "campaignCd" : "CAMP551",
+  "campaignNm" : "TARGET_9명_OCB_Batch",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2017-12-15"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP551",
+  "campaignNm" : "TARGET_9명_OCB_Batch",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/551"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/551"
+    }
+  }
+}
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,546 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,547 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,547 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,547 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,547 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,547 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 592,
+  "campaignCd" : "CAMP592",
+  "campaignNm" : "TARGET_9명_OCB_Manual_offer1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1216",
+  "processedDttm" : "2017-12-16"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,555 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,555 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,555 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP592",
+  "campaignNm" : "TARGET_9명_OCB_Manual_offer1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1216",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/592"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/592"
+    }
+  }
+}
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,556 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 10241,
+  "campaignCd" : "CAMP10241",
+  "campaignNm" : "12월19일_실발송테스트_OCB_채널ALL",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-19"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,566 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,566 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,566 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP10241",
+  "campaignNm" : "12월19일_실발송테스트_OCB_채널ALL",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10241"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10241"
+    }
+  }
+}
+2021-04-07 14:17:34,566 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,567 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 642,
+  "campaignCd" : "CAMP642",
+  "campaignNm" : "T_대상자3",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1221",
+  "processedDttm" : "2017-12-21"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP642",
+  "campaignNm" : "T_대상자3",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1221",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/642"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/642"
+    }
+  }
+}
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,575 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,576 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,576 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11245,
+  "campaignCd" : "CAMP11245",
+  "campaignNm" : "카테고리_0116_리빙_WK2",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2018-01-15"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11245",
+  "campaignNm" : "카테고리_0116_리빙_WK2",
+  "campaignFolderTxt" : "511.CRM팀\\2018년 캠페인\\18년 1월\\카테고리캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11245"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11245"
+    }
+  }
+}
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,585 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 210,
+  "campaignCd" : "CAMP210",
+  "campaignNm" : "tet_201466767",
+  "campaignFolderTxt" : "511.CRM팀",
+  "processedDttm" : "2017-10-31"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP210",
+  "campaignNm" : "tet_201466767",
+  "campaignFolderTxt" : "511.CRM팀",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/210"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/210"
+    }
+  }
+}
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,594 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,595 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 10126,
+  "campaignCd" : "CAMP10126",
+  "campaignNm" : "test_20171129_3",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-11-29"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP10126",
+  "campaignNm" : "test_20171129_3",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10126"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10126"
+    }
+  }
+}
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,603 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 474,
+  "campaignCd" : "CAMP474",
+  "campaignNm" : "TEST_일정_1212",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-12"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP474",
+  "campaignNm" : "TEST_일정_1212",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/474"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/474"
+    }
+  }
+}
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,613 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,614 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,614 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 579,
+  "campaignCd" : "CAMP579",
+  "campaignNm" : "TEST_LMS_1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2017-12-15"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,622 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,622 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,622 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP579",
+  "campaignNm" : "TEST_LMS_1",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/579"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/579"
+    }
+  }
+}
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,623 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11004,
+  "campaignCd" : "CAMP11004",
+  "campaignNm" : "테스트_20171222_3",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-22"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,633 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,633 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,633 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11004",
+  "campaignNm" : "테스트_20171222_3",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11004"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11004"
+    }
+  }
+}
+2021-04-07 14:17:34,634 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,634 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,634 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,634 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,635 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,635 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,635 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,635 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 11073,
+  "campaignCd" : "CAMP11073",
+  "campaignNm" : "이메일_앱푸시",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월29일test",
+  "processedDttm" : "2017-12-29"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,643 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP11073",
+  "campaignNm" : "이메일_앱푸시",
+  "campaignFolderTxt" : "580.테스트캠페인\\12월29일test",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11073"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/11073"
+    }
+  }
+}
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,644 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 372,
+  "campaignCd" : "CAMP372",
+  "campaignNm" : "캠페인372_테스트_KYC_확인",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-11-28"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,652 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP372",
+  "campaignNm" : "캠페인372_테스트_KYC_확인",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/372"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/372"
+    }
+  }
+}
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,653 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 418,
+  "campaignCd" : "CAMP418",
+  "campaignNm" : "test_카드사_0626_KB국민카드_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년10월\\카드사",
+  "processedDttm" : "2017-11-30"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,660 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,660 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,660 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP418",
+  "campaignNm" : "test_카드사_0626_KB국민카드_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년10월\\카드사",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/418"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/418"
+    }
+  }
+}
+2021-04-07 14:17:34,660 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,661 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 421,
+  "campaignCd" : "CAMP421",
+  "campaignNm" : "test_전사_자동화_1705_주말활성화_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년 9월\\전사",
+  "processedDttm" : "2017-11-30"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP421",
+  "campaignNm" : "test_전사_자동화_1705_주말활성화_1130",
+  "campaignFolderTxt" : "511.CRM팀\\2017년 9월\\전사",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/421"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/421"
+    }
+  }
+}
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,669 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,670 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,670 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 437,
+  "campaignCd" : "CAMP437",
+  "campaignNm" : "차집합",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2018-01-10"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,680 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,680 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,680 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP437",
+  "campaignNm" : "차집합",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/437"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/437"
+    }
+  }
+}
+2021-04-07 14:17:34,680 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,681 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 10205,
+  "campaignCd" : "CAMP10205",
+  "campaignNm" : "test_20171204_1",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2017-12-16"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP10205",
+  "campaignNm" : "test_20171204_1",
+  "campaignFolderTxt" : "580.테스트캠페인",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10205"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/10205"
+    }
+  }
+}
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,688 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 585,
+  "campaignCd" : "CAMP585",
+  "campaignNm" : "TARGET_9명_OCB_Manaul",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2017-12-15"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP585",
+  "campaignNm" : "TARGET_9명_OCB_Manaul",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/585"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/585"
+    }
+  }
+}
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,698 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,699 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,699 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 587,
+  "campaignCd" : "CAMP587",
+  "campaignNm" : "TEST_LMS_3",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2017-12-15"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,707 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,707 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,707 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP587",
+  "campaignNm" : "TEST_LMS_3",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1215",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/587"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/587"
+    }
+  }
+}
+2021-04-07 14:17:34,707 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.execute()#34 {}
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute START =============================
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - KANG-20210320 >>>>> org.tain.httpClient.MonHttpClient.post()#150 {}
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpUrl = http://localhost:8083/v0.1/api/campaigns
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-httpMethod = POST
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHeaders = [Content-Type:"application/json", header01:"value01"]
+2021-04-07 14:17:34,708 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-reqHttpEntity  = <{
+  "campaignSk" : 615,
+  "campaignCd" : "CAMP615",
+  "campaignNm" : "멀티스텝캠페인TEST",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1218",
+  "processedDttm" : "2017-12-18"
+},[Content-Type:"application/json", header01:"value01"]>
+2021-04-07 14:17:34,717 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCodeValue() = 201
+2021-04-07 14:17:34,717 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getStatusCode()      = 201 CREATED
+2021-04-07 14:17:34,717 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - >>>>> POST-getBody()            = {
+  "campaignCd" : "CAMP615",
+  "campaignNm" : "멀티스텝캠페인TEST",
+  "campaignFolderTxt" : "580.테스트캠페인\\TEST_1218",
+  "processedDttm" : "2021-04-07",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/615"
+    },
+    "campaign" : {
+      "href" : "http://localhost:8083/v0.1/api/campaigns/615"
+    }
+  }
+}
+2021-04-07 14:17:34,718 INFO  [main      ] [o.t.httpClient.MonHttpClient  ] - =========================== MonHttpClient.execute END =============================
